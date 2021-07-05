@@ -1,0 +1,47 @@
+.body {
+background: aqua;
+}
+
+.menu {}
+.menu a {
+text-decoration: none;
+
+}
+.menu li {
+list-style: none;
+}
+.menu_list {
+display: flex;
+}
+.menu_list>li:hover .sub-menu_list{
+margin: 0px 10px 0px 0px;
+}
+.menu_link {
+    border-radius:50%;
+color: #fff;
+}
+.sub-menu_list {
+display: none;
+position: absolute;
+left: 0;
+top: 20px;
+padding: 20px 0px 0px 0px;
+}
+.sub-menu_list>li {
+background-color: #fff;
+}
+.sub-menu_link {
+color: #000;
+}
+
+.main {
+
+    text-align: center;
+}
+
+.align {
+    margin: 10px 10px 10px 10px;
+    weight: 200px;
+    high: 100px;
+    background: blueviolet;
+}
